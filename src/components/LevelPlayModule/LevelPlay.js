@@ -90,6 +90,7 @@ useEffect(() => {
 
   return (
     <>
+    <VideoRecorder phase={state.value} />
       {state.value === "poseMatching" && poses != null && (
         <>
           <ConjecturePoseContainter
